@@ -13,25 +13,6 @@ div {
 }
 
 
-.container {
-    width: 100%;
-    max-width: 1200px;
-    min-width: 480px;
-    margin: 0 auto;
-    border: 1px solid #000;
-}
-
-.grid_wrapper {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-     /*grid-template-columns: 200px 200px 200px 200px;*/
-    /* grid-template-columns: auto auto auto auto; */
-    /*grid-template-columns: repeat(4, 200px);*/
-    /*grid-template-columns: repeat(auto-fill, 200px); /*-auto-fill заполни автоматически если не помещаются перенеси*/
-  /*  column-gap: 30px;  row-gap: 40px;*/ 
-
-}
-
 a {
     text-decoration: none;
 }
@@ -44,5 +25,45 @@ ul {
     background: yellow;
     border: 1px solid #000;
 }
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    min-width: 480px;
+    margin: 0 auto;
+    border: 1px solid #000;
+    font-size: 18px;
+}
+
+.template-title {
+    color: #003D6B;
+}
+
+
+.inner_wrap {
+    margin-top: 20px;
+}
+.grid_wrapper {
+    display: grid;
+    grid-template-columns: 180px auto 180px;
+    /* grid-template-columns: auto auto auto auto; */
+}
+
+.grid_wrapper2 {
+    display: grid;
+    grid-template-columns: repeat(3, 2fr 3fr );
+}
+
+.grid_wrapper3 {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 16.66%); /*-auto-fill заполни автоматически если не помещаются перенеси*/
+    column-gap: 20px;  row-gap: 10px;
+}
+
+.grid_wrapper4 {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 250px); /*-auto-fill заполни автоматически если не помещаются перенеси*/
+}
+
 
 
