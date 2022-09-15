@@ -91,12 +91,12 @@ ul {
 }
 
 .inner_wrap7 {
-    height: 600px;
+    height: 400px;
 }
 
 .grid_wrapper7 {
     display: grid;
-    grid-template-columns: 120px 220px 120px;
+    grid-template-columns: 120px 220px 200px;
     grid-auto-rows: minmax(100px, auto); 
     justify-content: end;
     align-items: start;  /*items по умолчанию stretch*/
