@@ -65,5 +65,58 @@ ul {
     grid-template-columns: repeat(auto-fill, 250px); /*-auto-fill заполни автоматически если не помещаются перенеси*/
 }
 
+.grid_wrapper5 {
+    display: grid;
+    grid-template-columns: 180px auto 180px;
+    grid-template-rows: auto;
+}
 
+.grid_wrapper6 {
+    display: grid;
+    grid-template-columns: 180px auto 180px;
+    grid-auto-rows: minmax(100px, auto); /*grid-auto-rows: 100px; - у кого нет размера*/
+    /*grid-template-rows: auto;*/
+    
+}
+
+
+.grid_wrapper7 {
+    display: grid;
+    grid-template-columns: 180px 180px 180px;
+    grid-auto-rows: minmax(100px, auto); 
+    justify-content: end;
+    align-items: start;
+   /* align-content: start;*/
+    /*grid-template-rows: auto;*/
+}
+
+.inner_wrap7 {
+    height: 600px;
+}
+
+.grid_wrapper7 {
+    display: grid;
+    grid-template-columns: 120px 220px 120px;
+    grid-auto-rows: minmax(100px, auto); 
+    justify-content: end;
+    align-items: start;  /*items по умолчанию stretch*/
+    justify-items: start; /*items по умолчанию stretch*/
+    /*grid-template-rows: auto;*/
+}
+
+.grid_wrapper8 {
+    display: grid;
+    grid-template-columns: 320px 320px 320px;
+    
+}
+
+.grid_wrapper8 .text4 {
+    justify-self: start;
+    align-self: center;
+}
+
+.grid_wrapper8 .text5 {
+    justify-self: end;
+    
+}
 
